@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{settings.title}}{% endblock title %}
+{% block content %}
+  
+{% include "components/theme.html" %}
+
+  {% include "components/letter.html" %} 
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="heading-39291">История компании</h2>
+            <p class="mb-5">Мы стремимся к созданию качественных решений для наших клиентов, помогая им развивать бизнес и достигать поставленных целей в меняющемся мире.</p>
+            <p>Наша история началась с небольшой команды единомышленников, объединенных общей идеей. За годы работы мы прошли огромный путь, накопили уникальный опыт и заслужили доверие множества партнеров, благодаря честному подходу к делу.</p>
+            <p>Мы постоянно развиваемся, внедряем новые технологии и повышаем стандарты качества. Каждый проект для нас — это индивидуальная задача, к решению которой мы подходим с максимальной ответственностью и профессионализмом.</p>
+            <p>Сегодня наша компания уверенно смотрит в будущее, расширяя горизонты и открывая новые направления. Мы ценим каждого клиента и делаем все возможное, чтобы наше сотрудничество было максимально эффективным и долгосрочным.</p>
+          </div>
+          <div class="col-md-6 ml-auto">
+            <img src="{% static "images/about_1.jpg" %}" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5 section-2-title">
+          <div class="col-md-6">
+            <h2 class="heading-39291">Наша команда</h2>
+            <p>Знакомьтесь с профессионалами своего дела, которые каждый день работают над развитием наших проектов и создают качественные решения для вас.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_1.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Руководит ключевыми процессами и задает вектор развития компании.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_2.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Отвечает за стратегическое планирование и внедрение новых технологий.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_3.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Управляет операционной деятельностью и координирует работу отделов.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_4.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Контролирует качество реализации проектов на всех этапах работы.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_5.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Занимается развитием партнерской сети и внешними коммуникациями.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="post-entry-1 h-100 bg-white text-center">
+              <a href="#" class="d-inline-block">
+                <img src="{% static 'images/person_1.jpg' %}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                <span class="meta">Основатель</span>
+                <h2>Джеймс Доу</h2>
+                <p>Выстраивает долгосрочные отношения с ключевыми клиентами бренда.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}
